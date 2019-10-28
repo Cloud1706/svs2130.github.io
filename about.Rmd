@@ -1,0 +1,42 @@
+---
+title: "Experience and Works"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Education
+
+### Columbia University, Mailman School of Public Health, New York, NY                            
+Master of Public Health (MPH) | Certificate in Advanced Epidemiology 
+May 2020(expected)
+Relevant Coursework: Research Methods and Analysis (Qualitative and Quantitative analysis of data), Analysis of Categorical Data, Linear and Logistic Regression, Statistical Computing with SAS and Design and Conduct of Research Studies, Survival Analysis, Probability and Data Science
+
+### Columbus University, College of Medicine and Health Sciences, Panama City, Panama           
+Doctor of Medicine (MD)                                                                                           January 2010 – August 2015.
+-	U.S. Equivalency (W.E.S) – Five years of professional study in basic sciences, clinical sciences and hospital work experience. ECFMG certified.
+
+## Work Experience
+
+### Hospital Saint Tomas, Panama City, Panama                                                             
+January, 2010 – August, 2015 
+-	Externed in Hospital Saint Tomas, Panama City, Panama, the biggest public hospitals in Panama with over 500 beds. 
+-	Attended patients without supervision in Internal Medicine and Emergency wards during calls.
+-	Surpassed expectations in in surgery and obstetric rotations.
+-	Volunteered as a Research Assistant at Gorgas Institute of Technology in a project to understand the actual prevalence of HPV among women in the remote parts of country, affiliated with the Hospital
+
+### NYCHHC+, Mt. Sinai, Queens Hospital Center                                                                
+June, 2017 – May, 2018
+Research Assistant, Dr. Isaac Sachmechi
+-	Worked in a randomized open label, parallel group real world pragmatic trial to assess the clinical and health outcomes of Toujeo insulin compared to commercially available insulins in insulin naïve patients
+-	Reached recruitment goals before deadlines, interviewed and enrolled subjects of different ethnicities over telephone and in person.
+-	Assisted in a Phase IV study designed to collect experiences and laboratory monitoring parameters of patients with hypothyroidism, switching from oral tablet formulation of levothyroxine to TIROSINT
+
+## Publications
+
+Senapathi, S., Bhavsar, R., Kaur, R., Kim, P., Sachmechi, I. [A Case Report of Fructosamine’s Unreliability as a
+Glycemic Control Assessment Tool in Nephrotic Syndrome.](https://www.cureus.com/articles/8882-a-case-report-of-fructosamines-unreliability-as-a-glycemic-control-assessment-tool-in-nephrotic-syndrome) Cureus Journal of Medical Science. 2017, Sep.
+DOI: 10.7759/cureus.1694
+
