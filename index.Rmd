@@ -8,9 +8,11 @@ output:
 
 ## Introduction
 Name: Sri Harshavardhan Senapathi
+
 Email: svs2130@cumc.columbia.edu
+
 Summary:
-I am currently MPH candidate with a concentration in Biostatistics and epidemiology at Columbia University. I am an MD, from Panama City, Panama, looking for experience in clinical research, and clinical study designing while pursuing for Medical Residency in the US. FOr more information [click here](about.html)
+I am currently MPH candidate with a concentration in Biostatistics and epidemiology at Columbia University. I am an MD, from Panama City, Panama, looking for experience in clinical research, and clinical study designing while pursuing for Medical Residency in the US. For more information [click here](about.html)
 
 
 
