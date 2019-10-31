@@ -35,7 +35,6 @@ insta_plotly %>%
 
 insta_plotly %>% 
   count(department) %>% 
-  filter(n > 100) %>% 
   mutate(aisle = fct_reorder(department, n)) %>% 
   plot_ly(x = ~department, y = ~n, type = "bar", color = ~department)
   
