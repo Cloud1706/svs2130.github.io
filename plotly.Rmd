@@ -30,9 +30,14 @@ insta_plotly =
 insta_plotly %>% 
   group_by(department) %>% 
   arrange(desc(order_hour_of_day)) %>% 
-  plot_ly(x = ~department, y = ~order_hour_of_day, type = "bar", color = ~order_hour_of_day)
+  plot_ly(x = ~department, y = ~order_hour_of_day)
+#, type = "bar", color = ~order_hour_of_day)
 
-
+insta_plotly %>% 
+  count(department) %>% 
+  filter(n > 100) %>% 
+  mutate(aisle = fct_reorder(department, n)) %>% 
+  plot_ly(x = ~department, y = ~n, type = "bar", color = ~department)
   
 #insta_plotly %>% 
  # group_by(department) %>% 
@@ -40,6 +45,8 @@ insta_plotly %>%
    #plot_ly(
     #x = ~order_hour_of_day, y = ~n, type = "scatter", mode = "markers",
     #color = ~department, text = ~text_label, alpha = 0.5)
+
+str(insta_plotly)
 ```
 
 ```{r}
