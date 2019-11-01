@@ -67,3 +67,5 @@ ny_noaa_data_tidy_5000 %>%
   plot_ly(x = ~month, y = ~monthly_snow, color = ~month, type = "bar")
 ```
 
+
+
