@@ -36,10 +36,15 @@ Column {data-width=650}
 ### Scatter Plot with tmin vs tmax
 
 ```{r scatter_plot}
-ny_noaa_data_tidy_5000 %>% 
-plot_ly(x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
-          alpha = 0.5, 
-          color = ~year)
+plot = ny_noaa_data_tidy_5000 %>% 
+  mutate(year = as.factor(year)) %>% 
+ggplot(aes(x = tmin, y = tmax, type = "scatter", mode = "markers",
+          alpha = 0.5,
+          color = year)) +
+  geom_point() +
+  scale_color_viridis_d()
+
+ggplotly(plot)
 ```
 
 Column {data-width=350}
@@ -68,4 +73,6 @@ ny_noaa_data_tidy_5000 %>%
 ```
 
 
-
+```{r}
+rmarkdown::render("flexdashboard.Rmd", output_format = "flexdashboard::flex_dashboard")
+```
