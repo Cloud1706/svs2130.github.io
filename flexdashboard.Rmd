@@ -2,7 +2,7 @@
 title: "Various Graphs on NY NOAA Data Set"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: rows
+    orientation: columns
     vertical_layout: fill
 ---
 
