@@ -55,7 +55,7 @@ ny_noaa_data_tidy_5000 %>%
   plot_ly(x = ~month, y = ~tmax, color = ~month, type = "box")
 ```
 
-### Bar Plot of amount of snow fall (mm) per month though the years
+### Bar Plot of amount of snow fall (mm) per month through the years
 
 ```{r bar_plot}
 ny_noaa_data_tidy_5000 %>% 
@@ -66,3 +66,4 @@ ny_noaa_data_tidy_5000 %>%
   mutate(monthly_snow = sum(snow)) %>% 
   plot_ly(x = ~month, y = ~monthly_snow, color = ~month, type = "bar")
 ```
+
